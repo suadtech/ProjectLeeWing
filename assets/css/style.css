@@ -20,6 +20,17 @@ body {
     padding-top: 57.15; /* pushes the top of the header down under fixed  navbar */
 }
 
+/*portfolio*/
+
+
+.Portfolio {
+    font-family: var(--secondary-font);
+    color: #25020a;  
+    margin-bottom: 2rem;
+    
+    
+}
+    
 h1,
 h2,
 h3 {
@@ -39,6 +50,18 @@ h2{
 .sub-heading-color {
     color: var(--highlight-color);
 
+}
+
+.section { 
+    margin-top :4rem; /*prevent navbar overlap*/
+}
+
+/* about */
+#about {
+    background-color: #fbeff2;
+    color: #37020e;
+    overflow-wrap: break-word;
+    margin: 0;
 }
 
 /* Buttons*/
