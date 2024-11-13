@@ -53,7 +53,7 @@ h2{
 }
 
 .section { 
-    margin-top :4rem; /*prevent navbar overlap*/
+    margin-top :10rem; /*prevent navbar overlap*/
 }
 
 /* about */
@@ -153,7 +153,7 @@ h2{
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+}
 /* Footer/contact */
 
 #contact {
@@ -184,15 +184,15 @@ h2{
 }
 
 /* grid visualistion css for testing */
-
+/* I can change the color to darker see the grid */
 .container,
 .row {
-    border:2px solid black;
+    border:2px solid rgb(255, 255, 255);
 }
 
 .col-12{
-    border:2px solid rgb(240, 228, 228);
-    background-color: lightgrey;
+    border:2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 } 
 
 /* Media queries */
