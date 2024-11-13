@@ -55,7 +55,9 @@ h2{
 }
 
 .custom-button-outline {
-    border: 3px sold #e78199;
+    border: 3px sold #37020e;
+    background-color: #e78199;
+    color: #37020e;
     padding: 7px 25px;
 }
 .custom-button-outline  :hover{
