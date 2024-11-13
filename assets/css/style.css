@@ -132,7 +132,30 @@ h2{
 
 }
 
+/* Testimonials*/
+
+#testimonials {
+    background-color: #ebe8e8;
+    padding: center;
+    font-family: Arial, sans-serif;
+}
+
+#testimonials h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 20 px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 /* Footer/contact */
+
 #contact {
     background-color: var(--primary-color);
     color:#25020a;
@@ -162,7 +185,7 @@ h2{
 
 /* grid visualistion css for testing */
 
- .container,
+.container,
 .row {
     border:2px solid black;
 }
