@@ -88,8 +88,9 @@ h2{
 #contact {
     background-color: var(--primary-color);
     color:#443438;
-    padding-bottom: 3rm
+    padding-bottom: 3rm;
 }
+ 
 
 #contact i {
     color: var(--secondary-color);
@@ -104,15 +105,16 @@ h2{
 }
 
 #contact .social-links i:hover {
-    color:var(--secondary-color)
+    color:var(--secondary-color);
 }
+
 #contact .table-dark * {
     background-color: transparent;
 }
 
 /* grid visualistion css for testing */
 
-/* .container,
+.container,
 .row {
     border:2px solid black;
 }
@@ -120,7 +122,7 @@ h2{
 .col-12{
     border:2px solid rgb(240, 228, 228);
     background-color: lightgrey;
-} */
+} 
 
 /* Media queries */
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="'description" content="Lee Wing Makeup Artist">
 
-    <title>Lee Wing - Makeup Artist Portfolio|Home</title>
+    <title>Lee Wing - Makeup Artist Portfolio|Booking inquiry</title>
     <!--favicons-->
     <link rel="icon" type="image/png"
         href="/https://8000-suadtech-projectleewing-opu555cm9w9.ws-eu116.gitpod.io/my-favicon/favicon.ico, enter /my-favicon/./favicon-96x96.png"
@@ -46,7 +46,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link " href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -64,120 +64,56 @@
                         <a class="nav-link " href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="booking.html" class="btn btn-primary ms-l-3 ">Book Now</a>
+                        <a href="booking.html" class="btn btn-primary ms-l-3 " aria-current="page">Book Now</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
     <!--main content-->
     <div>
         <section id="hero1">
     </div>
 
-    <!--header -->
-    <header id="header" class="container section">
-
-        <div class="row">
-            <div class="col-12 col-xl-6 text-center text-xl-start">
-                <hi class="display-3">Makeup By Lee Wing</hi>
-                <p class="lead display-6 sub-heading-color">Why waitng for let’s create a magic that gleams through
-                    your soul! </p>
-                <p class="my-4">Welcome to my Portfolio makeup artist, Beautifully crafted and lovingly made, Makeup
-                    by Lee exists for the radiant bride to be - the Woman within, the wildly in love. To empower, to
-                    inspire, to immerse art with natural beauty; to glow with the Sun, the Moon, the Earth.
-                    Romantic souls combined, Makeup by Lee is more. It’s the photo’s in a leather bound album -
-                    coffee in hand, it’s the memories that curve into a smile mixed with the smell before rain; a
-                    moment so special, a day kept close to the heart and never forgotten.
-                    Together, let’s create a magic that gleams through your soul, to treasure forever, a true
-                    happiness.
-                </p>
-                <a href="booking.html" class="btn btn-primary mb-4 ">Book Now</a>
-            </div>
-        </div>
-
-    </header>
-
-    <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
-        <!-- Services section -->
-        <section id="services" class="container section">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="display-6">Services</h2>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets/css/services-images/image1.jpeg" class="card-img-top" alt="BRIDAL MAKEUP">
-                        <div class="card-body">
-                            <h3 class="card-title sub-heading-color">BRIDAL MAKEUP</h3>
-                            <p class="card-text">Relax, enjoy the experience,and let us bring your dream look to life!
-                                If you have any questions or special requests, don’t hesitate to let us know—your Let’s
-                                get started on creating the perfect bridal glow!
-                            </p>
+        <!-- Booking inquiry form section -->
+        <section id="booking-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>Booking inquiry</h2>
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Event type</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="retro-night">Bridal Makeup</option>
+                                    <option value="tournament">Editorial</option>
+                                    <option value="special effects">Special Effects</option>
+                                    <option value="trial only">Trial only </option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
                         </div>
-                        <div class="card-footer">
-                            <p class="mb-0"> Your Bridal Makeup Experience includes: Wedding Makeup Trial & On The
-                                Wedding Day: £350
-                                (2024) | £400 (2025) Bridesmaid, Mother of the Bride/Groom, guests: £70 (2024) | £85
-                                (2025)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets/css/services-images/image2.jpeg" class="card-img-top" alt="Editorial" />
-                        <div class="card-body">
-                            <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
-                            <h3 class="card-title sub-heading-color">Editorial</h3>
-                            <p class="card-text">We’re thrilled to bring your vision to life with bold, artistic, and
-                                runway-ready looks. Let’s get started on crafting a look that captures the essence of
-                                your personality and the artistry of the shoot.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">Our Editorial Makeup Package includes:Custom look tailored to your concept
-                                and style. Professional application for long-lasting results.Our price Start From: £100.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets/css/services-images/image5.jpeg" class="card-img-top" alt="Special Effects">
-                        <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Special Effects </h3>
-                            <p class="card-text">Get ready to transform into something truly extraordinary! Whether
-                                you’re preparing for a photo shoot, film project,we’re here to make your vision come to
-                                life with high-quality.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">Our Special Effects Makeup Package includes: Use of premium materials for
-                                realistic and safe application Detailed and precision makeup for a flawless finish.
-                                Our price start from :£200
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets/css/services-images/image4.jpeg" class="card-img-top" alt="TRIAL ONLY">
-                        <div class="card-body">
-                            <h3 class="card-title sub-heading-color">TRIAL ONLY</h3>
-                            <p class="card-text">We’re so excited to help you discover your perfect look! This trial
-                                session is all about experimenting, trying out different styles, and making sure you
-                                feel absolutely stunning and confident.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">What’s included in your Trial Makeup Session: Adjustments and refinements
-                                to ensure the perfectlook Tips and advice for maintaining your look on the day of the
-                                event Price start from:£50</p>
-                        </div>
-                    </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
