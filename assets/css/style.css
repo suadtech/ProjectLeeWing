@@ -7,10 +7,10 @@
     --secondary-font: "Macondo", cursive;
     --primary-color: #fffeff;
     /*kind of red*/
-    --secondary-color: #280a11;
+    --secondary-color: #400a17;
     /*lightcolor */
-    --highlight-color: #702e3c;
-    --highlight-color-light: #7a9fc2;
+    --highlight-color: #4b0c18;
+    --highlight-color-light: #e3c0d1;
 }
 
 /*Global styles*/
@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: #220c11;  
+    color: #25020a;  
 }
 
 h1, 
@@ -40,6 +40,28 @@ h2{
 
 }
 
+/* Buttons*/
+
+.custom-button-filled {
+    border: 2px solid  #37020e;
+    background-color: #e78199;
+    color: #37020e;
+}
+
+.custom-button-filled :hover {
+    border: 2px solid  #37020e;
+    background-color: #e78199;
+    color : #37020e;
+}
+
+.custom-button-outline {
+    border: 3px sold #e78199;
+    padding: 7px 25px;
+}
+.custom-button-outline  :hover{
+    background-color: #e78199;
+    color: #37020e;
+}
 /* Navbar */
 
 #navbar {
@@ -87,7 +109,7 @@ h2{
 /* Footer/contact */
 #contact {
     background-color: var(--primary-color);
-    color:#443438;
+    color:#25020a;
     padding-bottom: 3rm;
 }
  
