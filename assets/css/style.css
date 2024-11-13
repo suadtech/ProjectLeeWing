@@ -7,9 +7,9 @@
     --secondary-font: "Macondo", cursive;
     --primary-color: #fffeff;
     /*kind of red*/
-    --secondary-color: #443438;
+    --secondary-color: #280a11;
     /*lightcolor */
-    --highlight-color: #416a8e;
+    --highlight-color: #702e3c;
     --highlight-color-light: #7a9fc2;
 }
 
@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);  
+    color: #220c11;  
 }
 
 h1, 
@@ -37,6 +37,7 @@ h2{
 
 .sub-heading-color {
     color: var(--highlight-color);
+
 }
 
 /* Navbar */
@@ -83,8 +84,35 @@ h2{
 
 }
 
-/*grid visualistion css for testing*/
-/*.container,
+/* Footer/contact */
+#contact {
+    background-color: var(--primary-color);
+    color:#443438;
+    padding-bottom: 3rm
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size:1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color:var(--secondary-color)
+}
+#contact .table-dark * {
+    background-color: transparent;
+}
+
+/* grid visualistion css for testing */
+
+/* .container,
 .row {
     border:2px solid black;
 }
@@ -92,7 +120,7 @@ h2{
 .col-12{
     border:2px solid rgb(240, 228, 228);
     background-color: lightgrey;
-} /*
+} */
 
 /* Media queries */
 
