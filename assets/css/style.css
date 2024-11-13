@@ -114,7 +114,7 @@ h2{
 
 /* grid visualistion css for testing */
 
-.container,
+ .container,
 .row {
     border:2px solid black;
 }
