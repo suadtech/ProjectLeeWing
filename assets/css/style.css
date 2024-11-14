@@ -133,11 +133,11 @@ h2{
 }
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(246, 222, 219, 0.7);
+    background-color: rgba(245, 213, 209, 0.7);
     font-size: 130%;
     position: absolute;
-    bottom: 225px;
-    width: 55%;
+    bottom: 285px;
+    width: 45%;
     min-height: 200px;
     padding-top: 30px;
     padding-left: 15px;
