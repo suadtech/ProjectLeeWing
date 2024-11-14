@@ -33,7 +33,9 @@ body {
     
 h1,
 h2,
-h3 {
+h3 
+h4
+h5 {
     font-family: var(--secondary-font);
     color: #25020a;  
 }
@@ -58,10 +60,19 @@ h2{
 
 /* about */
 #about {
-    background-color: #fbeff2;
+    background-color: #ffffff;
     color: #37020e;
     overflow-wrap: break-word;
     margin: 0;
+}
+.about {
+    
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Buttons*/
@@ -191,7 +202,7 @@ h2{
 }
 
 .col-12{
-    border:2px solid rgb(255, 255, 255);
+    border:2px solid rgb(227, 215, 215);
     background-color: rgb(255, 255, 255);
 } 
 
