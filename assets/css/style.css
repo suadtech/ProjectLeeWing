@@ -109,8 +109,8 @@ h2{
     font-family: var(--secondary-font);
 }
 
-/* Hero1 section*/
-#hero1 {
+/* Herosection */
+#hero {
     flex: 1 0 auto;
     margin-top: 1px;
     height: 600px;
