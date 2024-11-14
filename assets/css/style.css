@@ -75,7 +75,7 @@ h2{
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -123,8 +123,8 @@ h2{
 /* Hero section */
 #hero {
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
     margin-top: 1px;
     height: 600px;
     width: 100%;
