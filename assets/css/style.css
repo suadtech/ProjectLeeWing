@@ -1,3 +1,5 @@
+
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
@@ -17,7 +19,7 @@
 
 body {
     font-size: var(--primary-font);
-    padding-top: 57.15; /* pushes the top of the header down under fixed  navbar */
+    padding-top: 57.15px; /* pushes the top of the header down under fixed  navbar */
 }
 
 /*portfolio*/
@@ -55,10 +57,11 @@ h2{
 }
 
 .section { 
-    margin-top :10rem; /*prevent navbar overlap*/
+    padding-top :10rem; /*prevent navbar overlap*/
 }
 
 /* about */
+
 #about {
     background-color: #ffffff;
     color: #37020e;
@@ -72,7 +75,8 @@ h2{
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Buttons*/
@@ -90,10 +94,11 @@ h2{
 }
 
 .custom-button-outline {
-    border: 3px sold #37020e;
-    background-color: #e78199;
+    border: 3px   var(--highlight-color);
+    background-color:  #e78199;
     color: #37020e;
-    padding: 7px 25px;
+    padding: 8px 26px
+   
 }
 .custom-button-outline  :hover{
     background-color: #e78199;
@@ -110,7 +115,7 @@ h2{
 }
 
 .section {
-    margin: top 2rem;
+   
     margin-bottom: 2rem;
 }
 
@@ -122,7 +127,9 @@ h2{
 
 /* Herosection */
 #hero {
-    flex: 1 0 auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
     margin-top: 1px;
     height: 600px;
     width: 100%;
@@ -147,22 +154,20 @@ h2{
 
 #testimonials {
     background-color: #ebe8e8;
-    padding: center;
-    font-family: Arial, sans-serif;
+    padding: 10%;
+    font-family:  var(--secondary-font);
+    
 }
 
-#testimonials h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-}
+
 
 .testimonial {
     max-width: 600px;
-    margin: 20 px auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 /* Footer/contact */
@@ -170,7 +175,7 @@ h2{
 #contact {
     background-color: var(--primary-color);
     color:#25020a;
-    padding-bottom: 3rm;
+    padding-bottom: 3rem;
 }
  
 
@@ -183,6 +188,8 @@ h2{
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -193,18 +200,6 @@ h2{
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualistion css for testing */
-/* I can change the color to darker see the grid */
-.container,
-.row {
-    border:2px solid rgb(255, 255, 255);
-}
-
-.col-12{
-    border:2px solid rgb(227, 215, 215);
-    background-color: rgb(255, 255, 255);
-} 
 
 /* Media queries */
 
@@ -238,7 +233,7 @@ h2{
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
 
-    /* make all service cards the same height for consistency */
+ /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
     }
