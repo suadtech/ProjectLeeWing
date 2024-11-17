@@ -1,15 +1,11 @@
-
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
-
-/*css variables*/
 :root {
     --primary-font: "inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
-    --primary-color: #fffeff;
+    --secondary-font: "Macondo",cursive;
+    --primary-color: #fffeff; /*lightcolor */
     /*kind of red*/
     --secondary-color: #400a17;
-    /*lightcolor */
     --highlight-color: #4b0c18;
     --highlight-color-light: #e3c0d1;
 }
@@ -27,9 +23,7 @@ body {
 .Portfolio {
     font-family: var(--secondary-font);
     color: #25020a;  
-    margin-bottom: 2rem;
-    
-    
+    margin-bottom: 2rem;  
 }
     
 h1,
@@ -177,8 +171,6 @@ h2{
 }
 
 
-
-
 .testimonial .card{
     max-width: 600px;
     margin: 20px auto;
@@ -256,3 +248,15 @@ h2{
         min-height: 195px;
     }
 }
+Css grid
+/* grid visualistion css for testing */
+/* I can change the color to darker see the grid */
+.container,
+.row {
+    border:2px solid rgb(122, 76, 76);
+}
+
+.col-12{
+    border:2px solid rgb(170, 62, 62);
+    background-color: rgb(199, 179, 179);
+} 
