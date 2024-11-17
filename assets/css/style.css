@@ -248,15 +248,3 @@ h2{
         min-height: 195px;
     }
 }
-Css grid
-/* grid visualistion css for testing */
-/* I can change the color to darker see the grid */
-.container,
-.row {
-    border:2px solid rgb(122, 76, 76);
-}
-
-.col-12{
-    border:2px solid rgb(170, 62, 62);
-    background-color: rgb(199, 179, 179);
-} 
