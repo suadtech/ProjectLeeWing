@@ -19,7 +19,6 @@ body {
 
 /*portfolio*/
 
-
 .Portfolio {
     font-family: var(--secondary-font);
     color: #25020a;  
@@ -72,7 +71,6 @@ h2{
     -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 
 /* Buttons*/
@@ -130,7 +128,7 @@ h2{
     background-color: rgba(245, 213, 209, 0.7);
     font-size: 130%;
     position: absolute;
-    bottom: 285px;
+    bottom: 300px;
     width: 45%;
     min-height: 200px;
     padding-top: 30px;
