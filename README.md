@@ -1,4 +1,4 @@
-project Lee Wing
+#project Lee Wing
 Portfolio Website
 
 A modern, responsive portfolio website built with HTML, CSS, and JavaScript. This website is designed to showcase your portfolio, with sections for services, portfolio items, testimonials, and a contact form. It includes a carousel for portfolio images and a sticky navigation bar that adapts to screen sizes.
@@ -13,7 +13,7 @@ Features
 Installation
 
 To run this project locally, follow these steps:
-	1.	Clone the Repository
+1.	Clone the Repository
 Clone this repository to your local machine using the following command:
 
 git clone https://suadtech.github.io/ProjectLeeWing/
@@ -23,7 +23,7 @@ Change to the project directory:
 cd portfolio-website
 
 
-	3.	Open in Browser
+3.	Open in Browser
 Open the index.html file in your browser to see the portfolio website in action.
 Alternatively, you can use a local development server, such as:
 
