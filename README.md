@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 	1.	Clone the Repository
 Clone this repository to your local machine using the following command:
 
-git clone https://github.com/suadtech/ProjectLeeWing
+git clone https://suadtech.github.io/ProjectLeeWing/
 2.	Navigate to the Project Directory
 Change to the project directory:
 
