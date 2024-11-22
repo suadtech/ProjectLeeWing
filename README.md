@@ -6,13 +6,19 @@ This website is designed to showcase your portfolio, with sections for services,
 It includes a carousel for portfolio images and a sticky navigation bar that adapts to screen sizes.
 
 Features:
-     •  Responsive Design: The site adapts seamlessly to various screen sizes,                                                                       
+     •  Responsive Design:
+        The site adapts seamlessly to various screen sizes,                                                                       
      •  from desktop to mobile.
-     •  Sticky Navigation: The navigation bar stays at the top of the screen as you scroll.
-     •  Portfolio Carousel: A sliding carousel showcasing project images.
-     •  Service Cards: Each service is displayed in an easy-to-click card format.
-     •  Testimonials Section: A scrollable carousel of client feedback.
-     •  Contact Section: Includes contact info and social media links.
+     •  Sticky Navigation: 
+        The navigation bar stays at the top of the screen as you scroll.
+     •  Portfolio Carousel:
+        A sliding carousel showcasing project images.
+     •  Service Cards:
+        Each service is displayed in an easy-to-click card format.
+     •  Testimonials Section: 
+        A scrollable carousel of client feedback.
+     •  Contact Section: 
+        Includes contact info and social media links.
 
 
 	
