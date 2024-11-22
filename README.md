@@ -57,7 +57,7 @@ Contributing
 
 USER STORIES:
 
-User story1
+User story1:
    As a user, I want a responsive navigation menu so that I can easily move between sections on any device.
    • Acceptance Criteria:
    • Navigation menu must collapse on mobile screens and expand on desktop screens.
@@ -70,7 +70,7 @@ User story1
    3. Implement smooth scrolling for anchor links.
    4. Ensure accessibility (ARIA labels, keyboard navigation).
 
-User story2
+User story2:
   As a visitor, I want to see an engaging introduction so I can immediately understand the site’s purpose.
   • Acceptance Criteria:
   • The hero section must have clear, concise text introducing the service or brand.
@@ -83,7 +83,7 @@ User story2
   3. Ensure the hero section resizes appropriately on different devices.
   4. Test for contrast and legibility on various screen brightness levels.
 
-User story3
+User story3:
   As a potential client, I want to browse the portfolio images to get a sense of the company’s capabilities.
 • Acceptance Criteria:
   • Portfolio images should be displayed in a carousel format.
@@ -96,7 +96,7 @@ User story3
   3. Add image captions/descriptions that are accessible for all users.
   4. Test carousel functionality on mobile, tablet, and desktop devices.
 
-User story 4
+User story 4:
   As a user, I want to see clear service descriptions and pricing so I can make informed decisions.
 • Acceptance Criteria:
   • Each service card should display the name, a brief description, and pricing.
@@ -109,7 +109,7 @@ User story 4
    3. Add clear and consistent CTA buttons.
    4. Test card responsiveness and styling across devices.
 
-User story 5
+User story 5:
   As a new visitor, I want to read testimonials so I can trust the quality of services provided.
 • Acceptance Criteria:
   • Testimonials must be visually distinct and easy to read.
@@ -122,7 +122,7 @@ User story 5
   3. Implement a carousel or grid layout to display multiple testimonials.
   4. Ensure text is legible with appropriate font size and color contrast.
 
-User story 6
+User story 6:
   As a user, I want a clear “Book Now” button so I can easily schedule a service.
 • Acceptance Criteria:
   • CTA button should be prominent and accessible from multiple sections of the site.
@@ -135,12 +135,12 @@ User story 6
   3. Implement hover and active states for the button.
   4. Ensure the button is accessible for users with disabilities (focus styles, keyboard navigation).
 
-• User Story:7
+• User Story7:
   As a user, I want to easily find contact details so I can quickly get in touch.
-• Acceptance Criteria:
-• Contact info (phone, email, address) should be easily visible in the footer or a dedicated section.
-• Phone numbers should be clickable on mobile devices to call directly.
-• Email links should open the default email app on mobile and desktop.
+  • Acceptance Criteria:
+  • Contact info (phone, email, address) should be easily visible in the footer or a dedicated section.
+  • Phone numbers should be clickable on mobile devices to call directly.
+  • Email links should open the default email app on mobile and desktop.
  
 • Tasks:
   1. Gather and organize contact details for display.
@@ -148,7 +148,7 @@ User story 6
   3. Add a map (optional) for physical location on the contact page.
   4. Test for mobile compatibility (click-to-call on mobile devices).
 
-• User Story:8
+• User Story8:
   As a customer, I want to see clear opening hours so I know when the business is available.
 • Acceptance Criteria:
   • Hours should be displayed in a clear table format with days of the week and time slots.
@@ -161,7 +161,7 @@ User story 6
   3. Implement a holiday schedule if applicable.
   4. Test the visibility of the table on smaller screen sizes.
 
-• User Story:9
+• User Story9:
   As a visitor, I want the site to load quickly so I don’t get frustrated waiting for content.
 • Acceptance Criteria:
   • The website should load in under 3 seconds on average.
@@ -174,7 +174,7 @@ User story 6
   3. Minify CSS, JavaScript, and HTML files.
   4. Test load times using tools like Google PageSpeed Insights.
 
-• User Story:10
+• User Story10:
   As a mobile user, I want the footer to be readable and easy to navigate on a small screen.
 • Acceptance Criteria:
   • Footer sections (contact, social links, legal) should be organized vertically on mobile.
