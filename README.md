@@ -1,8 +1,11 @@
 #project Lee Wing
 Portfolio Website
 
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript. This website is designed to showcase your portfolio, with sections for services, portfolio items, testimonials, and a contact form. It includes a carousel for portfolio images and a sticky navigation bar that adapts to screen sizes.
-Features
+A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
+This website is designed to showcase your portfolio, with sections for services, portfolio items, testimonials, and a contact form.
+It includes a carousel for portfolio images and a sticky navigation bar that adapts to screen sizes.
+
+Features:
      •  Responsive Design: The site adapts seamlessly to various screen sizes,                                                                       
      •  from desktop to mobile.
      •  Sticky Navigation: The navigation bar stays at the top of the screen as you scroll.
