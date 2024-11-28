@@ -51,7 +51,7 @@ Technologies Used
 	•  HTML5: Used for the structure and content of the website.
 	•  CSS3: For styling and responsive design.
 	•  JavaScript: For functionality such as the portfolio carousel.
-	•  Bootstrap: (If included) For quick, responsive layout design (Optional).
+	•  Bootstrap: (It's included) For quick, responsive layout design .
 
 	
 Contributing
